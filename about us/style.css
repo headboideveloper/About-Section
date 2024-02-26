@@ -1,0 +1,96 @@
+html{
+    padding:0;
+    margin:0;
+  }
+  
+  body{
+    background-color:#EFEFEF;
+  }
+  
+  .section{
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .last-div{
+    box-shadow: 1px 1px 1px 2px #d98586;
+  }
+  
+
+  
+  #header img{
+    border-radius:50%;
+    border:1px solid #212121;
+  }
+  
+  #header p {
+    font-size: 20pt;
+    color: #EFEFEF;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  progress {
+    width: 80%;
+    height: 18px;
+    margin-left:10%;
+    color: #3fb6b2;
+    background: #efefef;
+    border-radius:10px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: #efefef;
+    border-radius:10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background:  #d98586;
+    border-radius:10px;
+  }
+  
+  #languages p{
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  input, textarea {
+    margin-bottom: 8px;
+    font-size: 11pt;
+    padding: 10px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #EFEFEF;
+    color: #404040;
+    border-radius: 10px;
+    width: 70%;
+    outline: none;
+  }
+  
+  .submit {
+    background-color: #d98586;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  h2{
+    color: #d98586;
+  }
+  
